@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400px;
+    background: #F0F0F0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+.hat {
+    background: white;
+    width: 100%;
+    height: 53px;
+}
+
+
+/* шапка */
+.logo{
+    position: relative;
+    width: 115px;
+    height: 25px;
+    top: 14px;
+    left: 49px;
+}
+
+.search_bare{
+    position: relative;
+    place-self: center;
+    top: -18px;
+}
+.bare_1{
+    position: relative;
+    background: #3631CD;
+    width: 794px;
+    height: 27px;
+    border-radius: 30px;
+}
+.search_form{
+    border: none;
+    justify-content: space-between;
+    position: relative;
+    background: white;
+    width: 721px;
+    height: 23px;
+    border-radius: 20px;
+    padding: 0 20px;
+    top: -27px;
+    left: 31px;
+}
+.magnifier{
+    border: none;
+    position: relative;
+    border: none;
+    width: 19px;
+    height: 19px;
+    top: -22px;
+    left: -755px;
+    background-color: #3631CD;
+}
+
+
+/* личный кабинет */
+.personal_account{
+    position: relative;
+    float: right;
+    top: -70px;
+    right: 49px;
+}
+.bare_3{
+    position: relative;
+    background: #3631CD;
+    width: 140px;
+    height: 27px;
+    border-radius: 40px;
+}
+.account_text{
+    position: relative;
+    font-size: 10px;
+    color: white;
+    top: -22px;
+    right: 22px;
+    float: right;
+}
+.vector{
+    position: relative;
+    width: 9px;
+    height: 13px;
+    left: 22px;
+    top: -25px;
+}
+
+
+.text_1{
+    position: relative;
+    font-size: 60px;
+    width: 273px;
+    height: auto;
+    top: 37px;
+    left: 260px;
+    line-height: 1.3;
+    background-clip: text;
+    background: linear-gradient(to right, #070536 0%, #2A22A6 51%, #1D5AE9 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+/* секция 1 */
+.section_1{
+    width: 100%;
+    height: auto;
+}
+
+.text_2{
+    position: relative;
+    font-size: 32px;
+    width: 736px;
+    left: 260px;
+    top: 47px;
+    background-clip: text;
+    background: linear-gradient(to right, #606C86 0%, #5171BD 17%, #4275F5 42%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.blok_1, .blok_2, .blok_3, .blok_4, .blok_5{
+    position: relative;
+    background: white;
+    width: 920px;
+    height: 278px;
+    border-radius: 31px;
+    left: 260px;
+    top: 60px;
+    margin-top : 28px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.photo_1, .photo_2, .photo_3, .photo_4, .photo_5{
+    position: relative;
+    width: 274px;
+    height: 238px;
+    top: 20px;
+    left: 616px;
+}
+.hakaton, .work-shop, .start-up, .marathon, .showcase{
+    position: relative;
+    font-size: 36px;
+    top: -239px;
+    left: 45px;
+}
+.txt_1, .txt_2{
+    position: relative;
+    color: #0B1646;
+    font-size: 20px;
+    left: 43px;
+    top: -232px;
+}
+.txt_2{
+    margin-top: 33px;
+}
+
+/* контактная информация */
+.infomation{
+    position: relative;
+    background: #120035;
+    width: 100%;
+    height: 375px;
+    top: 112px;
+}
